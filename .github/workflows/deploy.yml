@@ -23,7 +23,7 @@ jobs:
       - name: Check encodeProfileData configuration
         id: check-config
         run: |
-          ENCODE_PROFILE_DATA=$(node -pe "require('./config.json').encodeProfileData")
+          ENCODE_PROFILE_DATA=$(node -pe "require('./src/config/config.json').encodeProfileData")
           echo "ENCODE_PROFILE_DATA=$ENCODE_PROFILE_DATA" >> $GITHUB_ENV
 
       - name: Prepare profile data (encodeProfileData= true)

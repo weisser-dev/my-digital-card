@@ -36,11 +36,11 @@ const App = () => {
     } else {
       // Import the profile data directly if not encoded
       import('./data/profileData.json')
-        .then(data => {
+        .then(() => {
           setProfileData(profileData);
         });
     }
-  }, []);
+  }, [profileData]);
 
   // Wait for profile data to be loaded and decoded
   if (!profileData) {
