@@ -53,23 +53,9 @@ jobs:
         env:
           CI: false
 
-      - name: Checkout gh-pages branch
-        uses: actions/checkout@v3
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          ref: 'gh-pages'
-          path: 'gh-pages'
-
-      - name: Copy files
-        run: |
-          cp -r build/* gh-pages/
-
-      - name: Commit and push
-        run: |
-          cd gh-pages
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add .
-          git commit -m "Deploy updates"
-          git push origin gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          commit_message: 'Deploy to GitHub Pages from ${{ github.sha }}'
