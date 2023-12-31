@@ -49,8 +49,10 @@ jobs:
           fi
 
       - name: Build project
-        run: npm run build
+        run: |
+          PUBLIC_URL="https://$(echo $GITHUB_REPOSITORY | awk -F / '{print tolower($1)}').github.io/$(echo $GITHUB_REPOSITORY | awk -F / '{print tolower($2)}')" npm run build
         env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
           CI: false
 
       - name: Deploy to GitHub Pages
