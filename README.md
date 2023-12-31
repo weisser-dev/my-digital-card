@@ -4,6 +4,16 @@ My Digital Card is a modern, React-based application designed to create a person
 card. This project makes it simple for professionals to share their contact information, social media profiles, and
 personal branding in a digital format that is accessible anywhere.
 
+### Live Preview
+[https://weisser-dev.github.io/my-digital-card/](https://weisser-dev.github.io/my-digital-card/)
+
+![Mobile View](./screenshots/mobile.png)
+
+
+
+
+
+
 ## Table of Contents
 
 - [Features](#features)
@@ -15,6 +25,7 @@ personal branding in a digital format that is accessible anywhere.
 - [Contributing](#contributing)
 - [License](#license)
 - [Forking and Deployment](#forking-and-deployment)
+- [Screenshots](#screenshots)
 
 ## Features
 
@@ -100,3 +111,16 @@ Feel free to fork this project and make it your own. Here's how to deploy your v
 5. Deploy to your preferred service, like GitHub Pages (Works out of the box).
 
 Happy sharing of your professional digital business card!
+
+## Screenshots
+
+### Mobile View
+![Mobile View](./screenshots/mobile.png)
+
+### Desktop View
+![Desktop View](./screenshots/desktop.png)
+
+### Themes
+![Light Theme](./screenshots/light.png)
+![Dark Theme](./screenshots/dark.png)
+![Mobile View](./screenshots/mobile.png)
