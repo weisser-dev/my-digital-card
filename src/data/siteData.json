@@ -1,0 +1,16 @@
+{
+  "title": "My Digital Card",
+  "description": "Professional Digital Business Card",
+  "language": "en-US",
+  "ogImage": "/path/to/image.jpg",
+  "additionalMetaTags": [
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "property": "og:title",
+      "content": "My Digital Card"
+    }
+  ]
+}
