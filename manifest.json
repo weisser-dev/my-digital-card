@@ -1,0 +1,25 @@
+{
+  "short_name": "Digital Card",
+  "name": "My Digital Card is a React-based digital business card application that allows you to showcase your professional profile, social media links, and more. It provides a visually appealing way to introduce yourself to others.",
+  "icons": [
+    {
+      "src": "assets/favicon/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicon/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicon/favicon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
