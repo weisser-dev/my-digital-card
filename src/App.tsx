@@ -26,9 +26,9 @@ const App = () => {
         .then(response => response.text())
         .then(encodedData => {
           // Decode the base64 data
-          const decodedData = atob(encodedData);
-          const data = JSON.parse(decodedData);
-          setProfileData(data);
+          const uint8Array = new Uint8Array(atob(encodedData).split("").map(c => c.charCodeAt(0)));
+          const data = new TextDecoder('utf-8').decode(uint8Array);
+          setProfileData(JSON.parse(data));
         })
         .catch(error => {
           console.error('Failed to load and decode profile data:', error);
