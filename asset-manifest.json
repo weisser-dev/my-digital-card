@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://weisser-dev.github.io/my-digital-card/static/css/main.4368d43b.css",
-    "main.js": "https://weisser-dev.github.io/my-digital-card/static/js/main.e5d18cbe.js",
-    "static/js/449.bd072a67.chunk.js": "https://weisser-dev.github.io/my-digital-card/static/js/449.bd072a67.chunk.js",
+    "main.js": "https://weisser-dev.github.io/my-digital-card/static/js/main.bacec6ce.js",
+    "static/js/449.45173e9e.chunk.js": "https://weisser-dev.github.io/my-digital-card/static/js/449.45173e9e.chunk.js",
     "static/css/628.672c354f.chunk.css": "https://weisser-dev.github.io/my-digital-card/static/css/628.672c354f.chunk.css",
     "static/js/628.ef8e3c43.chunk.js": "https://weisser-dev.github.io/my-digital-card/static/js/628.ef8e3c43.chunk.js",
     "static/css/397.57b3426d.chunk.css": "https://weisser-dev.github.io/my-digital-card/static/css/397.57b3426d.chunk.css",
@@ -19,7 +19,7 @@
     "static/media/fa-v4compatibility.woff2": "https://weisser-dev.github.io/my-digital-card/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "https://weisser-dev.github.io/my-digital-card/index.html",
     "main.4368d43b.css.map": "https://weisser-dev.github.io/my-digital-card/static/css/main.4368d43b.css.map",
-    "main.e5d18cbe.js.map": "https://weisser-dev.github.io/my-digital-card/static/js/main.e5d18cbe.js.map",
+    "main.bacec6ce.js.map": "https://weisser-dev.github.io/my-digital-card/static/js/main.bacec6ce.js.map",
     "628.672c354f.chunk.css.map": "https://weisser-dev.github.io/my-digital-card/static/css/628.672c354f.chunk.css.map",
     "628.ef8e3c43.chunk.js.map": "https://weisser-dev.github.io/my-digital-card/static/js/628.ef8e3c43.chunk.js.map",
     "397.57b3426d.chunk.css.map": "https://weisser-dev.github.io/my-digital-card/static/css/397.57b3426d.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.4368d43b.css",
-    "static/js/main.e5d18cbe.js"
+    "static/js/main.bacec6ce.js"
   ]
 }
