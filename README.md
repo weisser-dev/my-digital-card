@@ -108,8 +108,8 @@ Feel free to fork this project and make it your own. Here's how to deploy your v
 2. Customize images to avoid using the default ones, such as my dog's photo.
 3. Prepare your data for deployment with `npm run prebuild`.
 4. Commit the base64 encoded data file.
-5. Deploy to your preferred service, like GitHub Pages (Works out of the box).
-
+5. Deploy to your preferred service, like GitHub Pages (Works out of the box, just enable Actions and give them the correct permissions: Actions -> General -> Workflow -> Read and write permissions ).
+6. Enable GH Pages -> Pages -> "Deploy from a branch" -> "gh-pages"
 Happy sharing of your professional digital business card!
 
 ## Screenshots

@@ -26,28 +26,6 @@ jobs:
           ENCODE_PROFILE_DATA=$(node -pe "require('./src/config/config.json').encodeProfileData")
           echo "ENCODE_PROFILE_DATA=$ENCODE_PROFILE_DATA" >> $GITHUB_ENV
 
-      - name: Prepare profile data (encodeProfileData= true)
-        if: env.ENCODE_PROFILE_DATA == 'true'
-        run: |
-          if [ -f public/data/b64ProfileData.json ]; then
-            echo "b64ProfileData.json already exists."
-          else
-            if [ -f src/data/profileData.json ]; then
-              npm run prebuild
-            else
-              cp src/data/profileData.template.json src/data/profileData.json
-              npm run prebuild
-            fi
-          fi
-
-      - name: Prepare profile data (encodeProfileData= false)
-        if: env.ENCODE_PROFILE_DATA == 'false'
-        run: |
-          if [ ! -f src/data/profileData.json ]; then
-            cp src/data/profileData.template.json src/data/profileData.json
-            npm run prebuild
-          fi
-
       - name: Build project
         run: |
           PUBLIC_URL="https://$(echo $GITHUB_REPOSITORY | awk -F / '{print tolower($1)}').github.io/$(echo $GITHUB_REPOSITORY | awk -F / '{print tolower($2)}')" npm run build
