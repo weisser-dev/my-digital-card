@@ -111,7 +111,7 @@ Feel free to fork this project and make it your own. Here's how to deploy your v
 5. Deploy to your preferred service, like GitHub Pages (Works out of the box, just enable Actions and give them the correct permissions: Actions -> General -> Workflow -> Read and write permissions ).
 6. Enable GH Pages -> Pages -> "Deploy from a branch" -> "gh-pages"
 Happy sharing of your professional digital business card!
-
+7. Pls also check, if you use a custom domain, that this is in the .env File as PUBLIC_URL
 ## Screenshots
 
 ### Mobile View

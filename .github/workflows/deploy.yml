@@ -28,7 +28,11 @@ jobs:
 
       - name: Build project
         run: |
-          PUBLIC_URL="https://$(echo $GITHUB_REPOSITORY | awk -F / '{print tolower($1)}').github.io/$(echo $GITHUB_REPOSITORY | awk -F / '{print tolower($2)}')" npm run build
+          if ! grep -q "PUBLIC_URL" .env; then
+            PUBLIC_URL="https://$(echo $GITHUB_REPOSITORY | awk -F / '{print tolower($1)}').github.io/$(echo $GITHUB_REPOSITORY | awk -F / '{print tolower($2)}')"
+            echo "PUBLIC_URL=$PUBLIC_URL" >> $GITHUB_ENV
+          fi
+          npm run build
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           CI: false
