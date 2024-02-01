@@ -40,7 +40,7 @@ const App = () => {
           setProfileData(profileData);
         });
     }
-  }, [profileData]);
+  }, []);
 
   // Wait for profile data to be loaded and decoded
   if (!profileData) {

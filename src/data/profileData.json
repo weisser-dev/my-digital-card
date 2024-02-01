@@ -19,6 +19,12 @@
       "icon": "fa-comment-sms"
     },
     {
+      "title": "Responsive Resume CV",
+      "description": "Open Source - React Resume CV",
+      "href": "https://weisser-dev.github.io/responsive-resume-cv-react/",
+      "icon": "fa-users-between-lines"
+    },
+    {
       "title": "Email (Business)",
       "description": "john.doe@domain.com",
       "href": "mailto:john.doe@domain.com",
