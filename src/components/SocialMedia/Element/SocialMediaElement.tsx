@@ -17,6 +17,7 @@ const SocialMediaElement: React.FC<SocialMediaElementProps> = ({href}) => {
       'pinterest.com': {platform: 'Pinterest', icon: 'fab fa-pinterest'},
       'snapchat.com': {platform: 'SnapChat', icon: 'fab fa-snapchat'},
       'github.com': {platform: 'GitHub', icon: 'fab fa-github'},
+      'xing.com': {platform: 'Xing', icon: 'fab fa-xing'},
       'wa.me': {platform: 'WhatsApp', icon: 'fab fa-whatsapp'},
     };
 
