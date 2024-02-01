@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmy_digital_card=self.webpackChunkmy_digital_card||[]).push([[397],{397:(a,c,d)=>{d.r(c),d.d(c,{default:()=>e});const e={}}}]);
-//# sourceMappingURL=397.ba95b3f0.chunk.js.map
