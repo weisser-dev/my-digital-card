@@ -1,8 +1,8 @@
 # My Digital Card
 
-**Live:** [my-digital-card.weisser.dev](https://my-digital-card.weisser.dev)
+**Live:** [weisser-dev.github.io/my-digital-card](https://weisser-dev.github.io/my-digital-card)
 
-![Screenshot of my-digital-card.weisser.dev](docs/screenshot.jpg)
+![Screenshot of weisser-dev.github.io/my-digital-card](docs/screenshot.jpg)
 
 
 My Digital Card is a modern, React-based application designed to create a personalized and interactive digital business
@@ -10,7 +10,7 @@ card. This project makes it simple for professionals to share their contact info
 personal branding in a digital format that is accessible anywhere.
 
 ### Live Preview
-[https://my-digital-card.weisser.dev/](https://my-digital-card.weisser.dev/)
+[https://weisser-dev.github.io/my-digital-card/](https://weisser-dev.github.io/my-digital-card/)
 
 ![Mobile View](./screenshots/mobile.png)
 
