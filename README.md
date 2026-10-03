@@ -10,7 +10,7 @@ card. This project makes it simple for professionals to share their contact info
 personal branding in a digital format that is accessible anywhere.
 
 ### Live Preview
-[https://weisser-dev.github.io/my-digital-card/](https://weisser-dev.github.io/my-digital-card/)
+[https://my-digital-card.weisser.dev/](https://my-digital-card.weisser.dev/)
 
 ![Mobile View](./screenshots/mobile.png)
 
