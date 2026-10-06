@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {createRoot} from 'react-dom/client';
 import {BrowserRouter as Router} from 'react-router-dom';
 import config from './config/config.json';
 import siteData from './data/siteData.json';
@@ -55,8 +55,16 @@ function setMetaTags() {
 loadTheme();
 setMetaTags();
 
-ReactDOM.render(<React.StrictMode>
-  <Router>
+const rootElement = document.getElementById('root');
+if (!rootElement) {
+  throw new Error('Root element #root was not found.');
+}
+
+const root = createRoot(rootElement);
+root.render(
+  <React.StrictMode>
+    <Router>
       <App/>
-  </Router>
-</React.StrictMode>, document.getElementById('root'));
+    </Router>
+  </React.StrictMode>,
+);
